@@ -4,9 +4,5 @@
   "description": "D3 Protoyping for PAPI3 Chart",
   "author": "Lewi Hansel",
   "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "d3": "^7.1.1"
-  },
-  "devDependencies": {}
+  "private": true
 }
