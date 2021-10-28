@@ -414,8 +414,6 @@ scaleSlices
 for (scale = 9; scale > -1; scale--) {
   papiData.forEach((d, i) => {
     scaleSlices
-      .data(papiData)
-      .enter()
       .append("path")
       .attr("class", `scaleSlice_${scale}`)
       .attr("id", `scaleSlice_${scale}_${i}`)
